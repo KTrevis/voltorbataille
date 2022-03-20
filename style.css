@@ -1,0 +1,51 @@
+body{
+	background-color: #1E1E1E;
+	color: white;
+	font-family: arial;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.case{
+	border: 1px solid white;
+	height: 60px;
+	width: 60px;
+}
+
+.bombFound{
+	background-color: red;
+}
+
+.notBombFound{
+	background-color: green;
+}
+
+p{
+	font-size: 18px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+button{
+	background-color: #343434;
+	border-style: none;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+.btn{
+	text-align: center;
+}
